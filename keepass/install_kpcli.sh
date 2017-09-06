@@ -6,6 +6,9 @@ pacman -S keepass
 
 # download the perl command line client
 wget https://sourceforge.net/projects/kpcli/files/kpcli-3.1.pl/download -O kbpcli-3.1.pl
+chmod 755 kbpcli-3.1.pl
+sudo mv kbpcli-3.1.pl /usr/local/bin
+sudo ln -s /usr/local/bin/kbpcli-3.1.pl /usr/local/bin/kbpcli
 
 # install the needed perl modules
 sudo cpan Clone
