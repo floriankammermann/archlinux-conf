@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# install xclip and keepass
+pacman -S xclip
+pacman -S keepass
+
 # download the perl command line client
 wget https://sourceforge.net/projects/kpcli/files/kpcli-3.1.pl/download -O kbpcli-3.1.pl
 
@@ -15,6 +19,3 @@ sudo cpan Term::ReadLine::Gnu
 sudo cpan XML::Parser
 sudo cpan Capture::Tiny
 sudo cpan Clipboard
-
-# install xclip
-pacman -S xclip

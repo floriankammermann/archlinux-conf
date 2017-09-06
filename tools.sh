@@ -22,3 +22,4 @@ pacman -S ttf-dejavu;
 pacman -S ttf-liberation;
 pacman -S terminus-font;
 pacman -S adobe-source-code-pro-fonts;
+pacman -S keepass;
