@@ -8,7 +8,7 @@
    `xu example-account`
 1. store the username in an env var
    `USR=$(xclip -o)`    
-1. copy a username to the clipboard 
+1. copy a password to the clipboard 
    `xp example-account`
-1. store the username in an env var
+1. store the password in an env var
    `PWD=$(xclip -o)`    
