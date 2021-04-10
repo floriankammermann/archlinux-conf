@@ -1,6 +1,7 @@
 #!/bin/bash
 pacman -S xorg-server;
 pacman -S xorg-utils;
+pacman -S xorg-xinit;
 pacman -S xf86-video-intel;
 pacman -S xterm;
 pacman -S base-devel;
