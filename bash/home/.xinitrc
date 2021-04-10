@@ -7,8 +7,6 @@ xrdb ~/.Xresources
 xset -b
 # enable NumLock
 numlockx &
-# make all the virtualbox features work
-VBoxClient-all
 # set the keyboard to ch
 setxkbmap ch
 exec i3
