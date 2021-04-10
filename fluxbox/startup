@@ -1,5 +1,0 @@
-wicd-client --tray &
-cbatticon &
-xterm &
-chromium &
-exec fluxbox
